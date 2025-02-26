@@ -1,0 +1,25 @@
+﻿<Skins>
+	<Skin id="17000" name="CoolLisa" character="Lisa" avatar="lisa_coollisa" unlockXP="25">
+		<Subland value="Springfield" />
+		<AnimationRemap Idle_Right="CoolLisa_Idle_Right" Idle_Left="CoolLisa_Idle_Left" Idle_blink_Right="CoolLisa_Idle_Blink_Right" Idle_blink_Left="CoolLisa_Idle_Blink_Left" Front_Walk_Right="CoolLisa_Front_Walk_Right" Front_Walk_Left="CoolLisa_Front_Walk_Left" Back_Walk_Left="CoolLisa_Back_Walk_Left" Back_Walk_Right="CoolLisa_Back_Walk_Right" Victory_Pose_Right="CoolLisa_Victory_Pose_Right" Victory_Pose_Left="CoolLisa_Victory_Pose_Left" />
+		<Sound event="CharacterSoundTouched" sound="LISA_TAP1.caf" />
+		<Sound event="CharacterSoundTouched" sound="LISA_TAP2.caf" />
+		<Sound event="CharacterSoundTouched" sound="LISA_TAP3.caf" />
+		<Sound event="CharacterSoundTouched" sound="LISA_TAP4.caf" />
+		<Sound event="CharacterSoundTouched" sound="LISA_TAP5.caf" />
+		<Sound event="CharacterSoundTouched" sound="LISA_TAP6.caf" />
+		<Sound event="CharacterSoundDone" sound="LISA_JOB-DONE1.caf" />
+		<Sound event="CharacterSoundDone" sound="LISA_JOB-DONE2.caf" />
+		<Sound event="CharacterSoundDone" sound="LISA_JOB-DONE3.caf" />
+		<Sound event="CharacterSoundBadJob" sound="LISA_JOB-GOOD1.caf" />
+		<Sound event="CharacterSoundBadJob" sound="LISA_JOB-GOOD2.caf" />
+		<Sound event="CharacterSoundGoodJob" sound="LISA_JOB-BAD1.caf" />
+		<Sound event="CharacterSoundGoodJob" sound="LISA_JOB-BAD2.caf" />
+		<UnlockSound type="herFace" />
+	</Skin>
+	<Skin id="17001" name="FitMilhouse" character="Milhouse" avatar="Milhouse_FitMilhouse" unlockXP="25" hasDialogue="false">
+		<Subland value="Springfield" />
+		<AnimationRemap Idle="FitMilhouse_Idle" Idle_blink="FitMilhouse_Idle_Blink" Front_Walk="FitMilhouse_Front_Walk" Back_Walk="FitMilhouse_Back_Walk" Victory_Pose="FitMilhouse_Victory_Animation" />
+		<UnlockSound type="iKnowHim" />
+	</Skin>
+</Skins>

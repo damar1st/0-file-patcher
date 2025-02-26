@@ -1,0 +1,245 @@
+﻿<QuestPackage>
+	<Quest id="26000" name="MilhouseFTW01" tags="mainquest" icon="Milhouse">
+		<Priority types="LimitedTime" />
+		<Requirements>
+			<Requirement type="level" level="8" />
+			<Requirement type="character" name="Milhouse" />
+			<Requirement type="time" end="YBoC_FitMilhouseCheckEndDate" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="MilhouseFTW01_Start" triggerType="character" character="Milhouse" />
+		<Objectives>
+			<Objective type="complete job" character="Milhouse" job="ResearchFitnessOnTheInternet" quantity="1" progress="quest" />
+		</Objectives>
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26001" name="MilhouseFTW02" tags="sidequest" icon="Milhouse">
+		<Priority types="LimitedTime" />
+		<Requirements>
+			<Requirement type="level" level="8" />
+			<Requirement type="quest" quest="MilhouseFTW01" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="MilhouseFTW02_Start" triggerType="character" character="Homer" />
+		<Objectives>
+			<Objective type="complete job" character="Milhouse" job="OrderUnnecessaryFitnessGadgetsTEMP" quantity="1" progress="quest" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="MilhouseFTW02_End" />
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26002" name="MilhouseFTW03" tags="sidequest" icon="Milhouse">
+		<Priority types="LimitedTime" />
+		<Requirements>
+			<Requirement type="level" level="8" />
+			<Requirement type="quest" quest="MilhouseFTW02" />
+			<Requirement type="character" name="Milhouse" unlockedskin="FitMilhouse" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="MilhouseFTW03_Start" triggerType="character" character="Milhouse" />
+		<Objectives>
+			<Objective type="complete job" character="Milhouse" job="GuzzleSportsDrinks" quantity="1" progress="quest" />
+		</Objectives>
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26003" name="MilhouseFTW04" tags="sidequest" icon="Milhouse">
+		<Priority types="LimitedTime" />
+		<Requirements>
+			<Requirement type="level" level="8" />
+			<Requirement type="quest" quest="MilhouseFTW03" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="MilhouseFTW04_Start" triggerType="character" character="Milhouse" />
+		<Objectives>
+			<Objective type="complete job" character="Milhouse" job="WorkItFitMilhouse" quantity="1" progress="quest" />
+		</Objectives>
+		<JobsStartedScript package="YBoC_Scripts" name="MilhouseFTW04_Started" />
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26015" name="MilhouseFTWEpisodeTeaser" tags="sidequest">
+		<Requirements>
+			<Requirement type="level" level="8" />
+			<Requirement type="quest" quest="MilhouseFTW04" />
+			<Requirement type="time" end="YBoC_EpisodeTeaserEndDate" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="MilhouseFTWEPISODETEASER_Start" />
+		<Objectives>
+			<Objective type="build" building="SimpsonHome" progress="lifetime" quantity="1" suppressCompleteSound="true" />
+		</Objectives>
+	</Quest>
+	<Quest id="26004" name="MilhouseFTW05" tags="sidequest">
+		<Requirements>
+			<Requirement type="conditional" logic="OR">
+				<Requirement type="conditional" logic="AND">
+					<Requirement type="time" end="YBoC_EpisodeTeaserEndDate" />
+					<Requirement type="quest" quest="MilhouseFTWEpisodeTeaser" />
+				</Requirement>
+				<Requirement type="conditional" logic="AND">
+					<Requirement type="time" start="YBoC_EpisodeTeaserEndDate" />
+					<Requirement type="quest" quest="MilhouseFTW04" />
+				</Requirement>
+			</Requirement>
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="MilhouseFTW05_End" />
+		<Objectives>
+			<Objective type="build" building="SimpsonHome" progress="lifetime" quantity="1" suppressCompleteSound="true" />
+		</Objectives>
+	</Quest>
+	<Quest id="26016" name="MilhouseFTWKill" tags="sidequest">
+		<Requirements>
+			<Requirement type="time" start="YBoC_KillDate" />
+		</Requirements>
+		<Objectives>
+			<Objective type="build" building="SimpsonHome" progress="lifetime" quantity="1" suppressCompleteSound="true" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="MilhouseFTWKill_End" />
+	</Quest>
+	<Quest id="26005" name="Lugashsthetics01" tags="sidequest" icon="Lugash">
+		<Requirements>
+			<Requirement type="level" level="27" />
+			<Requirement type="quest" quest="TheCrankyManCan03" />
+			<Requirement type="conditional" logic="OR">
+				<Requirement type="conditional" logic="AND">
+					<Requirement type="variable" variable="MilhouseFTWQuestlineCompleted" />
+					<Requirement type="time" end="YBoC_KillDate" />
+				</Requirement>
+				<Requirement type="time" start="YBoC_KillDate" />
+			</Requirement>
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="Lugashsthetics01_Start" triggerType="character" character="Lugash" />
+		<Objectives>
+			<Objective type="complete job" character="Lugash" job="BringMilhouseToTears" quantity="1" progress="quest" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="Lugashsthetics01_End" />
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26006" name="Lugashsthetics02" tags="sidequest" icon="Milhouse">
+		<Requirements>
+			<Requirement type="level" level="27" />
+			<Requirement type="quest" quest="Lugashsthetics01" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="Lugashsthetics02_Start" triggerType="character" character="Lugash" />
+		<Objectives>
+			<Objective type="complete job" character="Milhouse" job="HideFromLugashInFear" quantity="1" progress="quest" />
+		</Objectives>
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26007" name="Lugashsthetics03" tags="sidequest" icon="Milhouse">
+		<Requirements>
+			<Requirement type="level" level="27" />
+			<Requirement type="quest" quest="Lugashsthetics02" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="Lugashsthetics03_Start" triggerType="character" character="Lugash" />
+		<Objectives>
+			<Objective type="complete job" character="Milhouse" job="PutInSomeHonestEffort" quantity="4" progress="quest" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="Lugashsthetics03_End" />
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26008" name="Lugashsthetics04" tags="sidequest" icon="Milhouse">
+		<Requirements>
+			<Requirement type="level" level="27" />
+			<Requirement type="quest" quest="Lugashsthetics03" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="Lugashsthetics04_Start" triggerType="character" character="Milhouse" />
+		<Objectives>
+			<Objective type="complete job" character="Milhouse" job="PostSelfiesToSpringfaceTEMP" quantity="1" progress="quest" />
+		</Objectives>
+		<Reward money="200" xp="20" />
+		<EndOfQuestline />
+	</Quest>
+	<Quest id="26009" name="CoolIntentions01" tags="mainquest" icon="lisa_coollisa">
+		<Requirements>
+			<Requirement type="level" level="5" />
+			<Requirement type="quest" quest="MyPad" />
+			<Requirement type="character" name="Lisa" unlockedskin="CoolLisa" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="CoolIntentions01_Start" />
+		<Objectives>
+			<Objective type="complete job" character="Lisa" job="BeCool" quantity="1" progress="quest" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="CoolIntentions01_End" />
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26010" name="CoolIntentions02" tags="sidequest" icon="lisa_coollisa">
+		<Requirements>
+			<Requirement type="level" level="5" />
+			<Requirement type="quest" quest="CoolIntentions01" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="CoolIntentions02_Start" triggerType="character" character="Lisa" />
+		<Objectives>
+			<Objective type="complete job" character="Lisa" job="HangWithCoolKids" quantity="1" progress="quest" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="CoolIntentions02_End" />
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26011" name="CoolIntentions03" tags="sidequest" icon="lisa_coollisa">
+		<Requirements>
+			<Requirement type="level" level="5" />
+			<Requirement type="quest" quest="CoolIntentions02" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="CoolIntentions03_Start" triggerType="character" character="Lisa" />
+		<Objectives>
+			<Objective type="complete job" character="Lisa" job="SneakInSomeHomework" quantity="1" progress="quest" />
+		</Objectives>
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26012" name="CoolIntentions04" tags="sidequest" icon="lisa_coollisa">
+		<Requirements>
+			<Requirement type="level" level="5" />
+			<Requirement type="quest" quest="CoolIntentions03" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="CoolIntentions04_Start" triggerType="character" character="Lisa" />
+		<Objectives>
+			<Objective type="build" building="BartsTreehouse" quantity="1" rewardsCollected="yes" />
+			<Objective type="complete job" character="Bart" job="Skateboard" quantity="1" progress="quest" />
+			<Objective type="complete job" character="Lisa" job="AttemptToSkateboard" quantity="1" progress="quest" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="CoolIntentions04_End" />
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26013" name="CoolIntentions05" tags="sidequest" icon="lisa_coollisa">
+		<Requirements>
+			<Requirement type="level" level="5" />
+			<Requirement type="quest" quest="CoolIntentions04" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="CoolIntentions05_Start" triggerType="character" character="Lisa" />
+		<Objectives>
+			<Objective type="complete job" character="Lisa" job="HeckleBartDuringRecess" quantity="1" progress="quest" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="CoolIntentions05_End" />
+		<Reward money="100" xp="10" />
+	</Quest>
+	<Quest id="26014" name="CoolIntentions06" tags="sidequest" icon="lisa_coollisa">
+		<Requirements>
+			<Requirement type="level" level="5" />
+			<Requirement type="quest" quest="CoolIntentions05" />
+		</Requirements>
+		<StartScript package="YBoC_Scripts" name="CoolIntentions06_Start" triggerType="character" character="Lisa" />
+		<Objectives>
+			<Objective type="complete job" character="Lisa" job="HangAtKrustyBurger" quantity="1" progress="quest" />
+			<Objective type="complete job" character="Bart" job="HangAtKrustyBurgerTEMP" quantity="1" progress="quest" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="CoolIntentions06_End" />
+		<Reward money="200" xp="20" />
+		<EndOfQuestline />
+	</Quest>
+	<Quest id="26017" name="GoodWillDonuts" showRewards="true">
+		<Requirements>
+			<Requirement type="level" level="5" />
+			<Requirement type="quest" quest="MyPad" />
+			<Requirement type="time" end="YBoC_MakeGoodEndDate" />
+		</Requirements>
+		<Objectives>
+			<Objective type="none" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="GoodWillDonuts_End" />
+		<Reward money="0" xp="0" donuts="20" />
+	</Quest>
+	<Quest id="26018" name="MilhouseFTWHidden">
+		<Requirements>
+			<Requirement type="character" name="Milhouse" />
+			<Requirement type="quest started" quest="MilhouseFTW01" not="true" />
+			<Requirement type="time" end="YBoC_FitMilhouseCheckEndDate" />
+		</Requirements>
+		<Objectives>
+			<Objective type="none" />
+		</Objectives>
+		<EndScript package="YBoC_Scripts" name="AutoCompleteFTW01_End" />
+	</Quest>
+</QuestPackage>
