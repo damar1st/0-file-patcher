@@ -1,0 +1,225 @@
+﻿<ScriptPackage>
+	<MacaronisShed_Tapped parallel="true">
+		<Action type="sound" sound="MacaroniShedTap.caf" />
+		<Action type="anim-play" building="MacaronisShed" animation="ActiveNoLoop" />
+	</MacaronisShed_Tapped>
+	<MilhouseFTW01_Start>
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_1_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_2_Homer" revealSpeed="medium" emotion="happy" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_3_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_4_Homer" revealSpeed="medium" emotion="sarcastic" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_5_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_6_Homer" revealSpeed="medium" emotion="thoughtful" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_7_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_8_Homer" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_9_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_10_Homer" revealSpeed="medium" emotion="confused" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_11_Homer" revealSpeed="medium" emotion="serious" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_12_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Lenny" text="QST_MilhouseFTW01_3_dlg_Start_13_Lenny" revealSpeed="medium" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_14_Homer" revealSpeed="medium" emotion="happy" />
+		<Action type="dialogue" character="Carl" text="QST_MilhouseFTW01_3_dlg_Start_15_Carl" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_16_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Lenny" text="QST_MilhouseFTW01_3_dlg_Start_17_Lenny" revealSpeed="medium" />
+		<Action type="dialogue" character="Carl" text="QST_MilhouseFTW01_3_dlg_Start_18_Carl" revealSpeed="medium" />
+		<Action type="dialogue" character="Lenny" text="QST_MilhouseFTW01_3_dlg_Start_19_Lenny" revealSpeed="medium" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_20_Homer" revealSpeed="medium" emotion="serious" />
+		<Action type="dialogue" character="Lenny" text="QST_MilhouseFTW01_3_dlg_Start_21_Lenny" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Carl" text="QST_MilhouseFTW01_3_dlg_Start_22_Carl" revealSpeed="medium" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_23_Homer" revealSpeed="medium" emotion="happy" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_24_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_25_Homer" revealSpeed="medium" emotion="thoughtful" />
+		<Action type="dialogue" character="Carl" text="QST_MilhouseFTW01_3_dlg_Start_26_Carl" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_27_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Carl" text="QST_MilhouseFTW01_3_dlg_Start_28_Carl" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_29_Milhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_30_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW01_3_dlg_Start_31_Homer" revealSpeed="medium" emotion="surprised" />
+		<Action type="dialogue" character="Lenny" text="QST_MilhouseFTW01_3_dlg_Start_32_Lenny" revealSpeed="medium" emotion="surprised" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW01_3_dlg_Start_33_Milhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="Carl" text="QST_MilhouseFTW01_3_dlg_Start_34_Carl" revealSpeed="medium" />
+	</MilhouseFTW01_Start>
+	<MilhouseFTW02_Start>
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW02_3_dlg_Start_1_Homer" revealSpeed="medium" emotion="thoughtful" />
+		<Action type="dialogue" character="Carl" text="QST_MilhouseFTW02_3_dlg_Start_2_Carl" revealSpeed="medium" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW02_3_dlg_Start_3_Homer" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="ComicBookGuy" text="QST_MilhouseFTW02_3_dlg_Start_4_ComicBookGuy" revealSpeed="medium" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW02_3_dlg_Start_5_Homer" revealSpeed="medium" emotion="annoyed" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW02_3_dlg_Start_6_Homer" revealSpeed="medium" emotion="happy" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW02_3_dlg_Start_7_Milhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW02_3_dlg_Start_8_Homer" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW02_3_dlg_Start_9_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Homer" text="QST_MilhouseFTW02_3_dlg_Start_10_Homer" revealSpeed="medium" emotion="annoyed" />
+	</MilhouseFTW02_Start>
+	<MilhouseFTW02_End>
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW02_3_dlg_End_1_Milhouse" revealSpeed="medium" />
+		<Action type="message" text="QST_MilhouseFTW02_3_dlg_End_2_SystemMessage" revealSpeed="medium" dismissOnOKOnly="true" />
+		<Action type="reward">
+			<Item type="consumable" name="FitMilhouse_CON" />
+		</Action>
+	</MilhouseFTW02_End>
+	<MilhouseFTW03_Start>
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW03_3_dlg_Start_1_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW03_3_dlg_Start_2_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_3_SeaCaptain" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_4_SeaCaptain" revealSpeed="medium" emotion="aghast" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW03_3_dlg_Start_5_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_6_SeaCaptain" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW03_3_dlg_Start_7_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_8_SeaCaptain" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_9_SeaCaptain" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW03_3_dlg_Start_10_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_11_SeaCaptain" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW03_3_dlg_Start_12_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_13_SeaCaptain" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW03_3_dlg_Start_14_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_15_SeaCaptain" revealSpeed="medium" emotion="aghast" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_16_SeaCaptain" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW03_3_dlg_Start_17_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_18_SeaCaptain" revealSpeed="medium" />
+		<Action type="dialogue" character="SeaCaptain" text="QST_MilhouseFTW03_3_dlg_Start_19_SeaCaptain" revealSpeed="medium" />
+	</MilhouseFTW03_Start>
+	<MilhouseFTW04_Start>
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW04_3_dlg_Start_1_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW04_3_dlg_Start_2_FitMilhouse" revealSpeed="medium" emotion="sad" />
+	</MilhouseFTW04_Start>
+	<MilhouseFTW04_Started>
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW04_3_dlg_Started_1_FitMilhouse" revealSpeed="medium" />
+		<Action type="message" text="QST_MilhouseFTW04_3_dlg_Started_2_SystemMessage" revealSpeed="medium" />
+	</MilhouseFTW04_Started>
+	<MilhouseFTW05_End>
+		<Action type="dialogue" character="Lugash" text="QST_MilhouseFTW04_3_dlg_End_1_Lugash" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW04_3_dlg_End_2_FitMilhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW04_3_dlg_End_3_FitMilhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Lugash" text="QST_MilhouseFTW04_3_dlg_End_4_Lugash" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW04_3_dlg_End_5_FitMilhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Lugash" text="QST_MilhouseFTW04_3_dlg_End_6_Lugash" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Lugash" text="QST_MilhouseFTW04_3_dlg_End_7_Lugash" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_MilhouseFTW04_3_dlg_End_8_FitMilhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="Lugash" text="QST_MilhouseFTW04_3_dlg_End_9_Lugash" revealSpeed="medium" />
+		<Action type="message" text="QST_MilhouseFTW04_3_dlg_End_10_SystemMessage" revealSpeed="medium" />
+		<Action type="setVariable" boolVariable="MilhouseFTWQuestlineCompleted" boolValue="true" />
+	</MilhouseFTW05_End>
+	<MilhouseFTWEPISODETEASER_Start>
+		<Action type="message" text="QST_MilhouseFTW04_3_dlg_Started_3_SystemMessage" revealSpeed="medium" />
+	</MilhouseFTWEPISODETEASER_Start>
+	<MilhouseFTWKill_End parallel="true">
+		<Action type="setVariable" boolVariable="MilhouseFTWQuestlineCompleted" boolValue="true" />
+	</MilhouseFTWKill_End>
+	<Lugashsthetics01_Start>
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics01_3_dlg_Start_1_Lugash" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_Lugashsthetics01_3_dlg_Start_2_Milhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics01_3_dlg_Start_3_Lugash" revealSpeed="medium" emotion="angry" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics01_3_dlg_Start_4_Lugash" revealSpeed="medium" />
+		<Action type="dialogue" character="Milhouse" text="QST_Lugashsthetics01_3_dlg_Start_5_Milhouse" revealSpeed="medium" />
+	</Lugashsthetics01_Start>
+	<Lugashsthetics01_End>
+		<Action type="dialogue" character="Milhouse" text="QST_Lugashsthetics01_3_dlg_End_1_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Milhouse" text="QST_Lugashsthetics01_3_dlg_End_2_Milhouse" revealSpeed="medium" emotion="sick" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics01_3_dlg_End_3_Lugash" revealSpeed="medium" emotion="angry" />
+	</Lugashsthetics01_End>
+	<Lugashsthetics02_Start>
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics02_3_dlg_Start_1_Lugash" revealSpeed="medium" emotion="angry" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics02_3_dlg_Start_2_Lugash" revealSpeed="medium" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics02_3_dlg_Start_3_Lugash" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics02_3_dlg_Start_4_Lugash" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="ComicBookGuy" text="QST_Lugashsthetics02_3_dlg_Start_5_ComicBookGuy" revealSpeed="medium" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics02_3_dlg_Start_6_Lugash" revealSpeed="medium" emotion="angry" />
+		<Action type="dialogue" character="ComicBookGuy" text="QST_Lugashsthetics02_3_dlg_Start_7_ComicBookGuy" revealSpeed="medium" emotion="annoyed" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics02_3_dlg_Start_8_Lugash" revealSpeed="medium" emotion="angry" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics02_3_dlg_Start_9_Lugash" revealSpeed="medium" emotion="angry" />
+		<Action type="dialogue" character="Milhouse" text="QST_Lugashsthetics02_3_dlg_Start_10_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics02_3_dlg_Start_11_Lugash" revealSpeed="medium" emotion="angry" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics02_3_dlg_Start_12_Lugash" revealSpeed="medium" emotion="angry" />
+	</Lugashsthetics02_Start>
+	<Lugashsthetics03_Start>
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics03_3_dlg_Start_1_Lugash" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Milhouse" text="QST_Lugashsthetics03_3_dlg_Start_2_Milhouse" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics03_3_dlg_Start_3_Lugash" revealSpeed="medium" />
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics03_3_dlg_Start_4_Lugash" revealSpeed="medium" emotion="angry" />
+	</Lugashsthetics03_Start>
+	<Lugashsthetics03_End>
+		<Action type="dialogue" character="Lugash" text="QST_Lugashsthetics03_3_dlg_End_1_Lugash" revealSpeed="medium" />
+	</Lugashsthetics03_End>
+	<Lugashsthetics04_Start>
+		<Action type="dialogue" character="Milhouse" text="QST_Lugashsthetics04_3_dlg_Start_1_Milhouse" revealSpeed="medium" />
+		<Action type="dialogue" character="Lisa" text="QST_Lugashsthetics04_3_dlg_Start_2_Lisa" revealSpeed="medium" emotion="annoyed" />
+		<Action type="dialogue" character="Milhouse" text="QST_Lugashsthetics04_3_dlg_Start_3_Milhouse" revealSpeed="medium" emotion="sad" />
+	</Lugashsthetics04_Start>
+	<CoolIntentions01_Start>
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions01_3_dlg_Start_1_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions01_3_dlg_Start_2_CoolLisa" revealSpeed="medium" />
+	</CoolIntentions01_Start>
+	<CoolIntentions01_End>
+		<Action type="dialogue" character="Otto" text="QST_CoolIntentions01_3_dlg_End_1_Otto" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions01_3_dlg_End_2_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="Otto" text="QST_CoolIntentions01_3_dlg_End_3_Otto" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions01_3_dlg_End_4_CoolLisa" revealSpeed="medium" />
+	</CoolIntentions01_End>
+	<CoolIntentions02_Start>
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions02_3_dlg_Start_1_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions02_3_dlg_Start_2_CoolLisa" revealSpeed="medium" />
+	</CoolIntentions02_Start>
+	<CoolIntentions02_End>
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions02_3_dlg_Start_3_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions02_3_dlg_Start_4_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions02_3_dlg_Start_4B_CoolLisa" revealSpeed="medium" />
+	</CoolIntentions02_End>
+	<CoolIntentions03_Start>
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions03_3_dlg_Start_1_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions03_3_dlg_Start_2_CoolLisa" revealSpeed="medium" />
+	</CoolIntentions03_Start>
+	<CoolIntentions04_Start>
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions04_3_dlg_Start_1_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="Bart" text="QST_CoolIntentions04_3_dlg_Start_2_Bart" revealSpeed="medium" emotion="surprised" />
+		<Action type="dialogue" character="Bart" text="QST_CoolIntentions04_3_dlg_Start_3_Bart" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions04_3_dlg_Start_4_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions04_3_dlg_Start_5_CoolLisa" revealSpeed="medium" emotion="sad" />
+	</CoolIntentions04_Start>
+	<CoolIntentions04_End>
+		<Action type="dialogue" character="Bart" text="QST_CoolIntentions04_3_dlg_End_1_Bart" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions04_3_dlg_End_2_CoolLisa" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="Martin" text="QST_CoolIntentions04_3_dlg_End_3_Martin" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions04_3_dlg_End_4_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="Bart" text="QST_CoolIntentions04_3_dlg_End_5_Bart" revealSpeed="medium" emotion="angry" />
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions04_3_dlg_End_6_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions04_3_dlg_End_7_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions04_3_dlg_End_8_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions04_3_dlg_End_9_CoolLisa" revealSpeed="medium" />
+	</CoolIntentions04_End>
+	<CoolIntentions05_Start>
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions05_3_dlg_Start_1_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions05_3_dlg_Start_2_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="Jimbo" text="QST_CoolIntentions05_3_dlg_Start_3_Jimbo" revealSpeed="medium" />
+		<Action type="dialogue" character="Nelson" text="QST_CoolIntentions05_3_dlg_Start_4_Nelson" revealSpeed="medium" />
+		<Action type="dialogue" character="Dolph" text="QST_CoolIntentions05_3_dlg_Start_5_Dolph" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions05_3_dlg_Start_6_CoolLisa" revealSpeed="medium" />
+	</CoolIntentions05_Start>
+	<CoolIntentions05_End>
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions05_3_dlg_End_1_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions05_3_dlg_End_2_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="Bart" text="QST_CoolIntentions05_3_dlg_End_3_Bart" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions05_3_dlg_End_4_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions05_3_dlg_End_5_CoolLisa" revealSpeed="medium" emotion="sad" />
+	</CoolIntentions05_End>
+	<CoolIntentions06_Start>
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions06_3_dlg_Start_1_CoolLisa" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions06_3_dlg_Start_2_CoolLisa" revealSpeed="medium" emotion="shocked" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions06_3_dlg_Start_3_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions06_3_dlg_Start_4_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions06_3_dlg_Start_5_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolKid" text="QST_CoolIntentions06_3_dlg_Start_6_CoolKid" revealSpeed="medium" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions06_3_dlg_Start_7_CoolLisa" revealSpeed="medium" />
+	</CoolIntentions06_Start>
+	<CoolIntentions06_End>
+		<Action type="dialogue" character="Bart" text="QST_CoolIntentions06_3_dlg_End_1_Bart" revealSpeed="medium" emotion="sad" />
+		<Action type="dialogue" character="CoolLisa" text="QST_CoolIntentions06_3_dlg_End_2_CoolLisa" revealSpeed="medium" />
+		<Action type="dialogue" character="Bart" text="QST_CoolIntentions06_3_dlg_End_3_Bart" revealSpeed="medium" emotion="laughing" />
+	</CoolIntentions06_End>
+	<GoodWillDonuts_End>
+		<Action type="message" text="QST_MakeGood01_3_dlg_End_1_SystemMessage" />
+	</GoodWillDonuts_End>
+	<AutoCompleteFTW01_End>
+		<Action type="message" text="QST_MakeGood02_3_dlg_End_1_SystemMessage" />
+	</AutoCompleteFTW01_End>
+</ScriptPackage>
